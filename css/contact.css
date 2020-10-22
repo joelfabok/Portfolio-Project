@@ -1,0 +1,159 @@
+body {
+  background-color: black;
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+.contact a{
+        transform: rotate(90deg);
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        color: #828282;
+        position: fixed;
+        margin-top: 25%;
+        margin-left: 97%;
+
+}
+
+.contact a:hover {
+  color: white;
+}
+
+/********************************************/
+  /*************** Top nav Home ***************/
+  /********************************************/
+
+  .home a{
+    top: 15px;
+    right:48.5%;
+    text-decoration: none;
+    cursor: pointer;
+    color: #828282;
+    position: fixed;
+    
+
+  }
+
+  .home a:hover {
+    color: white;
+  }   
+
+  /********************************************/
+  /************** Side nav Contact ************/
+  /********************************************/
+ 
+  .contact a{
+    transform: rotate(90deg);
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    color: #828282;
+    position: fixed;
+    margin-top: 16.5%;
+    margin-left: 97%;
+
+  }
+
+  .contact a:hover {
+  color: white;
+  }
+
+  /******************************************/
+  /************** Side nav About ************/
+  /******************************************/
+  
+  #about a{
+    transform: rotate(-90deg); /* Equal to rotateZ(45deg) */
+    text-align: center;
+    display:inline-block;
+    text-decoration: none;
+    color: #828282;
+    cursor: pointer;
+    position: fixed;
+    margin-top: 16.5%;
+  }
+
+  #about a:hover {
+    color: white;
+  }
+
+  /************************************************/
+  /************** Bottom nav Portfolio ************/
+  /************************************************/
+
+  .main a{
+    bottom: 10px;
+    right:50%;
+    text-decoration: none;
+    cursor: pointer;
+    color: #828282;
+    position: fixed;
+    font-size: 30px;
+
+}
+
+  .main a:hover {
+  color: white;
+  }
+
+  /* End of Nav CSS */
+  
+
+  /*********************************/
+  /********** Contact Form *********/
+  /*********************************/
+
+
+ /* Form */
+  form {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    background-color: white;
+    border-radius: 7px;
+  }
+
+  .formLayout {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+
+  }
+
+  form h2 {
+    color: black;
+  }
+
+  form #firstName #lastName #myEmail #address #myDate #comments {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .textArea {
+    border-radius: 5px;
+    padding: 5px;
+    margin: 7px;
+    font-size: 15px;
+
+  }
+
+  #comments {
+      max-width: 50%;
+  }
+
+
+  input[type=submit], input[type=reset] {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  

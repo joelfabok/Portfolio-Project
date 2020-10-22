@@ -1,0 +1,197 @@
+body {
+  background-color: black;
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+#about a{
+    transform: rotate(-90deg); /* Equal to rotateZ(45deg) */
+    text-align: center;
+    display:inline-block;
+    text-decoration: none;
+    color: #828282;
+    cursor: pointer;
+    position: fixed;
+    margin-top: 25%;
+  }
+
+  #about a:hover {
+    color: white;
+  }
+
+  /********************************************/
+  /*************** Top nav Home ***************/
+  /********************************************/
+
+  .home a{
+    top: 15px;
+    right:48.5%;
+    text-decoration: none;
+    cursor: pointer;
+    color: #828282;
+    position: fixed;
+    
+
+  }
+
+  .home a:hover {
+    color: white;
+  }   
+
+  /********************************************/
+  /************** Side nav Contact ************/
+  /********************************************/
+ 
+  .contact a{
+    transform: rotate(90deg);
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    color: #828282;
+    position: fixed;
+    margin-top: 20%;
+    margin-left: 97%;
+
+  }
+
+  .contact a:hover {
+  color: white;
+  }
+
+  /******************************************/
+  /************** Side nav About ************/
+  /******************************************/
+  
+  #about a{
+    transform: rotate(-90deg); /* Equal to rotateZ(45deg) */
+    text-align: center;
+    display:inline-block;
+    text-decoration: none;
+    color: #828282;
+    cursor: pointer;
+    position: fixed;
+    margin-top: 20%;
+  }
+
+  #about a:hover {
+    color: white;
+  }
+
+  /************************************************/
+  /************** Bottom nav Portfolio ************/
+  /************************************************/
+
+  .main a{
+    bottom: 10px;
+    right:50%;
+    text-decoration: none;
+    cursor: pointer;
+    color: #828282;
+    position: fixed;
+    font-size: 30px;
+
+}
+
+  .main a:hover {
+  color: white;
+  }
+
+  /* End of Nav CSS */
+
+  /********************************************/
+  /************** About Us Content ************/
+  /********************************************/
+
+  .about {
+    background-color: white;
+    vertical-align: middle;
+    width: 90%;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.5%;
+    border-radius: 7px;
+  }
+
+  #aboutText {
+    float: right;
+    max-width: 40%;
+    margin-right: 50px;
+    color: black;
+    padding-top: 8%;
+    text-align: center;
+  }
+
+
+
+  /*******************************/
+  /************* Bars ************/
+  /*******************************/
+
+
+  .bars {
+    background-color: lightgrey;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+
+  .html {
+    width: 90%;
+    background-color:cadetblue;
+  }
+
+  .css {
+    width: 80%;
+    background-color: cadetblue;
+  }
+  .js {
+    width: 30%;
+    background-color: cadetblue;
+  }
+
+  .skillBars{
+    position: absolute;
+    width: 60%;
+    top: 80px;
+    color: black;
+    margin-left: -100px;
+    text-align: center;
+  }
+
+  .skillBars p{
+    font-size: 15px;
+    color: black;
+  }
+
+
+  /********************************************************/
+  /************* Resume At The Bottom OF Page  ************/
+  /********************************************************/
+
+  .resume {
+    padding-top: 350px;
+    right: 0;
+    left: 0;
+    color: black;
+    text-align: center;
+    line-height: 10px;
+  }
+
+  .resume h3 {
+    text-align: center;
+    color: black;
+  }
+
+  .resumeinfo {
+    font-size: 13px;
+    line-height: 1px;
+    color: black;
+    text-align: center;
+  }
+
+  

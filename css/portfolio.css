@@ -1,0 +1,188 @@
+body {
+  background-color: black;
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.main a{
+        bottom: 10px;
+        right:50%;
+        text-decoration: none;
+        cursor: pointer;
+        color: #828282;
+        position: fixed;
+        font-size: 30px;
+
+}
+
+.main a:hover {
+  color: white;
+}
+
+  /********************************************/
+  /*************** Top nav Home ***************/
+  /********************************************/
+
+  .home a{
+    top: 15px;
+    right:48.5%;
+    text-decoration: none;
+    cursor: pointer;
+    color: #828282;
+    position: fixed;
+    
+
+  }
+
+  .home a:hover {
+    color: white;
+  }   
+
+  /********************************************/
+  /************** Side nav Contact ************/
+  /********************************************/
+ 
+  .contact a{
+    transform: rotate(90deg);
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    color: #828282;
+    position: fixed;
+    margin-top: 13%;
+    margin-left: 97%;
+
+  }
+
+  .contact a:hover {
+  color: white;
+  }
+
+  /******************************************/
+  /************** Side nav About ************/
+  /******************************************/
+  
+  #about a{
+    transform: rotate(-90deg); /* Equal to rotateZ(45deg) */
+    text-align: center;
+    display:inline-block;
+    text-decoration: none;
+    color: #828282;
+    cursor: pointer;
+    position: fixed;
+    margin-top: 13%;
+  }
+
+  #about a:hover {
+    color: white;
+  }
+
+  /************************************************/
+  /************** Bottom nav Portfolio ************/
+  /************************************************/
+
+  .main a{
+    bottom: 10px;
+    right:50%;
+    text-decoration: none;
+    cursor: pointer;
+    color: #828282;
+    position: fixed;
+    font-size: 30px;
+
+}
+
+  .main a:hover {
+  color: white;
+  }
+
+    /**************************/
+    /******* Hover Text *******/
+    /**************************/
+    .overlay a:hover, .overlay a:focus {
+      color: #f1f1f1;
+    }
+
+
+    /**************************/
+    /********** Images ********/
+    /**************************/
+    .images {
+      margin-top: 150px;
+    }
+
+    .imgOne{
+      width: 35%;
+      overflow: hidden;
+      margin-bottom: 100px;
+     }
+
+     .imgTwo {
+       width: 35%;
+       overflow: hidden;
+       margin-bottom: 100px;
+     }
+
+    .imgThree {
+      width: 35%;
+      margin-bottom: 8%;
+    }
+
+
+    /***************************/
+    /******* Image Hover *******/
+    /***************************/
+
+    .imgOne, .imgTwo, .imgThree{
+      -webkit-filter: grayscale(100%);
+	    filter: grayscale(100%);
+	    -webkit-transition: .1s ease-in-out;
+	    transition: .1s ease-in-out;
+
+    }
+
+    .imgOne:hover, .imgTwo:hover, .imgThree:hover {
+      -webkit-filter: grayscale(0);
+	     filter: grayscale(0);
+       opacity: 0.3;
+    }
+
+    .centerImgone {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-decoration: none;
+    }
+
+
+
+    .centerImgtwo {
+      position: absolute;
+      top: 133%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-decoration: none;
+    }
+
+    .centerImgthree {
+      position: absolute;
+      top: 215%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .centerImgone, .centerImgtwo, .centerImgthree {
+      font-weight: bold;
+
+    }
+
+
+
+
+    /********* Scroll Bar *********/
+    ::-webkit-scrollbar {
+      width: 0px;
+    }
