@@ -3,7 +3,7 @@ body {
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
-    
+
 }
 
 .banner {
@@ -35,9 +35,9 @@ body {
   #content{
       position: Absolute;
       margin-left: 43%;
-      padding-top: 23%;
-      color: white;
-      font-size: 25px;
+      padding-top: 20%;
+      color: #45A29E;
+      font-size: 30px;
       animation: fading 10s;
       cursor: default;
   }
@@ -80,14 +80,14 @@ h1, #contactnav, #about, #infonav{
   /********************************************/
   /************** Side nav Contact ************/
   /********************************************/
- 
+
   .contact a{
     transform: rotate(90deg);
     text-align: center;
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
-    color: #828282;
+    color: #45A29E;
     position: fixed;
     margin-top: 23.5%;
     margin-left: 97%;
@@ -101,13 +101,13 @@ h1, #contactnav, #about, #infonav{
   /******************************************/
   /************** Side nav About ************/
   /******************************************/
-  
+
   #about a{
     transform: rotate(-90deg); /* Equal to rotateZ(45deg) */
     text-align: center;
     display:inline-block;
     text-decoration: none;
-    color: #828282;
+    color: #45A29E;
     cursor: pointer;
     position: fixed;
     margin-top: 23.5%;
@@ -118,15 +118,15 @@ h1, #contactnav, #about, #infonav{
   }
 
   /**********************************************/
-  /************** Side nav Portfolio ************/
+  /************** Bottom nav Portfolio ************/
   /**********************************************/
 
   .main a{
     bottom: 10px;
-    right:50%;
+    right:49%;
     text-decoration: none;
     cursor: pointer;
-    color: #828282;
+    color: #45A29E;
     position: fixed;
     font-size: 30px;
 

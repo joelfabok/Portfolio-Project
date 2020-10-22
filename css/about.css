@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: #0B0C10;
   margin: 0%;
   font-family: Arial, Helvetica, sans-serif;
   overflow: hidden;
@@ -29,27 +29,27 @@ body {
     right:48.5%;
     text-decoration: none;
     cursor: pointer;
-    color: #828282;
+    color: #45A29E;
     position: fixed;
-    
+
 
   }
 
   .home a:hover {
     color: white;
-  }   
+  }
 
   /********************************************/
   /************** Side nav Contact ************/
   /********************************************/
- 
+
   .contact a{
     transform: rotate(90deg);
     text-align: center;
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
-    color: #828282;
+    color: #45A29E;
     position: fixed;
     margin-top: 20%;
     margin-left: 97%;
@@ -63,13 +63,13 @@ body {
   /******************************************/
   /************** Side nav About ************/
   /******************************************/
-  
+
   #about a{
     transform: rotate(-90deg); /* Equal to rotateZ(45deg) */
     text-align: center;
     display:inline-block;
     text-decoration: none;
-    color: #828282;
+    color: #45A29E;
     cursor: pointer;
     position: fixed;
     margin-top: 20%;
@@ -85,10 +85,10 @@ body {
 
   .main a{
     bottom: 10px;
-    right:50%;
+    right:49%;
     text-decoration: none;
     cursor: pointer;
-    color: #828282;
+    color: #45A29E;
     position: fixed;
     font-size: 30px;
 
@@ -193,5 +193,3 @@ body {
     color: black;
     text-align: center;
   }
-
-  

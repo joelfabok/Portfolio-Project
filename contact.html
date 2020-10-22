@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="css/contact.css">
-    
+
 </head>
 
 <body>
@@ -32,31 +32,60 @@
             <a href="portfolio.html">&#x2193;</a>
         </nav>
 
-    
 
 
-        <form action="action.php" class="contactForm">
+
+        <form action="action.php" class="contactForm" name="myForm" method="post" onsubmit="return validateForm()">
             <main class="formLayout">
             <h2>Get In Touch</h2>
 
-            <label id="firstName"><input class="textArea" type="text" placeholder="First Name" required ></label><br>
+            <label id="firstName"><input name="firstName" class="textArea" type="text" placeholder="First Name"></label><br>
 
-            <label id="lastName"><input class="textArea" type="text" placeholder="Last Name" required></label><br>
+            <label id="lastName"><input name="lastName" class="textArea" type="text" placeholder="Last Name" ></label><br>
 
-            <label id="myEmail"></label> <input class="textArea" type="email" placeholder="Email" id="myemail" required><br>
+            <label id="myEmail"></label> <input name="email" class="textArea" type="email" placeholder="Email" id="myemail" ><br>
 
-            <label id="address"><input class="textArea" type="address" placeholder="Address" required></label><br>
-
-            <label id="myDate"><input class="textArea" type="date" placeholder="Date Of Birth:" required></label><br>
+            <label id="address"><input name="number" class="textArea" type="tel" placeholder="xxx-xxx-xxxx"></label><br>
 
 
-            <textarea class="textArea" rows="3" cols="30" placeholder="Comments" name="comments" id="comments" required></textarea><br>
+            <textarea class="textArea" rows="3" cols="30" placeholder="Comments" name="comments" id="comments"></textarea><br>
 
-            <input class="button" type="submit" value="Submit">
-            <input class="button" type="reset" value="Reset">
+            <button class="button" type="submit" name="button">Submit</button>
+            <button class="button" type="reset" name="button">Reset</button>
+
             </main>
         </form> <!-- End of Action.php -->
     </section> <!-- End of contactContent -->
+
+    <script type="text/javascript">
+
+    function validateForm() {
+    let a = document.forms["myForm"]["firstName"].value;
+    let b = document.forms["myForm"]["lastName"].value;
+    let c = document.forms["myForm"]["email"].value;
+    let d = document.forms["myForm"]["number"].value;
+    let e = document.forms["myForm"]["comments"].value;
+
+    if (a == "") {
+      alert("Name must be filled out");
+    }
+    if (b == "") {
+      alert("Last Name must be filled out");
+    }
+    if (c == "") {
+      alert("Email must be filled out");
+    }
+    if (d == "") {
+      alert("Phone Number must be filled out");
+    }
+    if (e == "") {
+      alert("Comments must be filled out");
+
+    }
+
+
+  }
+    </script>
 
 </body>
 </html>
