@@ -1,5 +1,4 @@
 body {
-    background-color: black;
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
@@ -9,6 +8,7 @@ body {
 .banner {
   position: fixed;
   object-fit: fill;
+  opacity: 90%;
 }
 
 .banner video{
@@ -34,10 +34,11 @@ body {
 
   #content{
       position: Absolute;
-      margin-left: 43%;
-      padding-top: 20%;
-      color: #45A29E;
-      font-size: 30px;
+      margin-left: 38%;
+      padding-top: 19%;
+      color: #FF652F;
+      font-size: 40px;
+      text-transform: uppercase;
       animation: fading 10s;
       cursor: default;
   }
@@ -87,7 +88,7 @@ h1, #contactnav, #about, #infonav{
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
-    color: #45A29E;
+    color: #FF652F;
     position: fixed;
     margin-top: 23.5%;
     margin-left: 97%;
@@ -107,7 +108,7 @@ h1, #contactnav, #about, #infonav{
     text-align: center;
     display:inline-block;
     text-decoration: none;
-    color: #45A29E;
+    color: #FF652F;
     cursor: pointer;
     position: fixed;
     margin-top: 23.5%;
@@ -126,7 +127,7 @@ h1, #contactnav, #about, #infonav{
     right:49%;
     text-decoration: none;
     cursor: pointer;
-    color: #45A29E;
+    color: #FF652F;
     position: fixed;
     font-size: 30px;
 

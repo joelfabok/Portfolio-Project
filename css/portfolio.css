@@ -1,5 +1,5 @@
 body {
-  background-color: #0B0C10;
+  background-color: #001;
   margin: 0%;
   font-family: Arial, Helvetica, sans-serif;
 
@@ -10,7 +10,7 @@ body {
         right:50%;
         text-decoration: none;
         cursor: pointer;
-        color: #45A29E;
+        color: #FF652F;
         position: fixed;
         font-size: 30px;
 
@@ -29,7 +29,7 @@ body {
     right:48.5%;
     text-decoration: none;
     cursor: pointer;
-    color: #45A29E;
+    color: #FF652F;
     position: fixed;
 
 
@@ -49,7 +49,7 @@ body {
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
-    color: #45A29E;
+    color: #FF652F;
     position: fixed;
     margin-top: 13%;
     margin-left: 97%;
@@ -69,7 +69,7 @@ body {
     text-align: center;
     display:inline-block;
     text-decoration: none;
-    color: #45A29E;
+    color: #FF652F;
     cursor: pointer;
     position: fixed;
     margin-top: 13%;
@@ -88,7 +88,7 @@ body {
     right:49%;
     text-decoration: none;
     cursor: pointer;
-    color: #45A29E;
+    color: #FF652F;
     position: fixed;
     font-size: 30px;
 

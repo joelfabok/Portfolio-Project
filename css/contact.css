@@ -1,8 +1,13 @@
 body {
-  background-color: #0B0C10;
+  background-image: url(../image/mainPic.png);
+  background-size: cover; 
   margin: 0%;
   font-family: Arial, Helvetica, sans-serif;
   overflow: hidden;
+}
+
+#background {
+
 }
 
 .contact a{
@@ -11,7 +16,7 @@ body {
         display: inline-block;
         text-decoration: none;
         cursor: pointer;
-        color: #45A29E;
+        color: #FF652F;
         position: fixed;
         margin-top: 25%;
         margin-left: 97%;
@@ -22,6 +27,8 @@ body {
   color: white;
 }
 
+
+
 /********************************************/
   /*************** Top nav Home ***************/
   /********************************************/
@@ -31,7 +38,7 @@ body {
     right:48.5%;
     text-decoration: none;
     cursor: pointer;
-    color: #45A29E;
+    color: #FF652F;
     position: fixed;
 
 
@@ -51,9 +58,9 @@ body {
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
-    color: #45A29E;
+    color: #FF652F;
     position: fixed;
-    margin-top: 16.5%;
+    margin-top: 14.5%;
     margin-left: 97%;
 
   }
@@ -71,10 +78,10 @@ body {
     text-align: center;
     display:inline-block;
     text-decoration: none;
-    color: #45A29E;
+    color: #FF652F;
     cursor: pointer;
     position: fixed;
-    margin-top: 16.5%;
+    margin-top: 14.5%;
   }
 
   #about a:hover {
@@ -90,7 +97,7 @@ body {
     right:49%;
     text-decoration: none;
     cursor: pointer;
-    color: #45A29E;
+    color: #FF652F;
     position: fixed;
     font-size: 30px;
 
@@ -113,9 +120,11 @@ body {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 7%;
-    background-color: #1F2833;
+    margin-top: 9%;
+    background-color: #2C2A34;
     border-radius: 7px;
+    opacity: 80;
+
   }
 
   .formLayout {
@@ -126,7 +135,7 @@ body {
   }
 
   form h2 {
-    color: black;
+    color: #FF652F;
   }
 
   form #firstName #lastName #myEmail #address #myDate #comments {
@@ -134,11 +143,17 @@ body {
   }
 
   .textArea {
-    border-radius: 6px;
-    padding: 5px;
-    margin: 8px;
-    font-size: 15px;
+    color: black;
     background-color: transparent;
+    background-clip: padding-box;
+    border: none;
+    border-bottom: 1px solid #999A9B;
+    border-radius: 0;
+    padding: 10px 20px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
 
   }
 
@@ -148,12 +163,10 @@ body {
 
 
   button{
-
-
     border: none;
     background-color: transparent;
     color: white;
-    border: 1px solid #45A29E;
+    border: 1px solid #FF652F;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
@@ -167,19 +180,4 @@ body {
   button:hover {
     background-color: #e7e7e7;
     color: black;
-  }
-
-  input[type=submit], input[type=reset] {
-    background-color: transparent;
-    ;
-    border-color: #45A29E;
-    color: black;
-    padding: 16px 32px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-
-  input[type=submit]:hover, input[type=reset]:hover {
-    background-color: white;
   }
