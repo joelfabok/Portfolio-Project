@@ -87,13 +87,11 @@ body {
 
   .main a{
     bottom: 10px;
-    right:49%;
+    right:48.5%;
     text-decoration: none;
     cursor: pointer;
     color: #FF652F;
     position: fixed;
-    font-size: 30px;
-
 }
 
   .main a:hover {
@@ -110,7 +108,7 @@ body {
     background-color: #2C2A34;
     vertical-align: middle;
     width: 90%;
-    padding-bottom: 50px;
+    padding-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3.5%;
@@ -122,7 +120,7 @@ body {
     max-width: 40%;
     margin-right: 50px;
     color: white;
-    padding-top: 8%;
+    padding-top: 5%;
     text-align: center;
   }
 
@@ -184,12 +182,15 @@ body {
   /********************************************************/
 
   .resume {
-    padding-top: 350px;
+    padding-top: 320px;
     right: 0;
     left: 0;
     color: white;
     text-align: center;
-    line-height: 10px;
+  }
+
+  .resumeText {
+    margin-top: -15px;
   }
 
   .resume h2 {
@@ -200,7 +201,7 @@ body {
 
   .resumeinfo {
     font-size: 13px;
-    line-height: 1px;
+    margin-top: -10px;
     color: white;
     text-align: center;
   }

@@ -1,6 +1,6 @@
 body {
   background-image: url(../image/mainPic.png);
-  background-size: cover; 
+  background-size: cover;
   margin: 0%;
   font-family: Arial, Helvetica, sans-serif;
   overflow: hidden;
@@ -94,12 +94,11 @@ body {
 
   .main a{
     bottom: 10px;
-    right:49%;
+    right:48.5%;
     text-decoration: none;
     cursor: pointer;
     color: #FF652F;
     position: fixed;
-    font-size: 30px;
 
 }
 

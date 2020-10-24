@@ -7,7 +7,7 @@ body {
 
 .banner {
   position: fixed;
-  object-fit: fill;
+
   opacity: 90%;
 }
 
@@ -41,6 +41,7 @@ body {
       text-transform: uppercase;
       animation: fading 10s;
       cursor: default;
+      font-family: Lucida Bright;
   }
 
 
@@ -124,14 +125,12 @@ h1, #contactnav, #about, #infonav{
 
   .main a{
     bottom: 10px;
-    right:49%;
+    right:48.5%;
     text-decoration: none;
     cursor: pointer;
     color: #FF652F;
     position: fixed;
-    font-size: 30px;
-
-}
+  }
 
   .main a:hover {
   color: white;
